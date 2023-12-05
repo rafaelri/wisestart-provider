@@ -18,6 +18,7 @@ repositories {
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	testImplementation("au.com.dius.pact.provider:junit5:4.1.7")
 }
 
 tasks.named('test') {
